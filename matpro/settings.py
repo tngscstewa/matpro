@@ -137,7 +137,7 @@ USE_TZ = True
 
 
 STATIC_ROOT =  '/home/emisf10/Desktop/pro/matpro/static/static_server'
-STATICFILES_DIRS = ('/home/emisf10/Desktop/pro/matpro/static/static_local',)
+# STATICFILES_DIRS = ('/home/emisf10/Desktop/pro/matpro/static/static_local',)
 STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR,"site_media", "media")
 MEDIA_URL = "/media/"
